@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header .logo img{
+    width: 200px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container .main-login{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: green;
+}
+.container .main-login .left-login{
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container .main-login .right-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container .main-login .right-login .card-login{
+    background: white;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px #1a1f1a;
+}
+.container .main-login .left-login h1{
+    color: white;
+}
+
+.container .main-login .right-login h1{
+    font-weight: 500;
+    color: #3a3736;
+    padding: 15px;
+}
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 7px;
+}
+.textfield input{
+    width: 300px;
+    height: 30px;
+    color: #3a3736;
+    font-size: 12pt;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    background: #a3aea36a;
+    padding: 5px;
+}
+
+.textfield label{
+    color: #3a3736;
+    margin-bottom: 7px;
+    
+}
+.right-login i{
+    font-size: 30px;
+    color: white;
+}
+.bnt-login{
+    width: 80px;
+    height: 35px;
+    font-size: 12px;
+    background: green;
+    color: white;
+    margin: 7px;
+    border: none;
+    cursor: pointer;
+}
+.mis a{
+    text-decoration: none;
+    color: green;
+    font-size: 17px;
+}
+
+.left-login i{
+    font-size: 150px;
+    color: white;
+    margin: 10px;
+}
+.bnt-login1{
+    width: 300px;
+    height: 35px;
+    font-size: 12px;
+    color: #3a3736;
+    margin: 7px;
+    border: none;
+    background: #d3d1cf;
+    cursor: pointer;
+}
+
+button:hover{
+    filter: brightness(80%);
+}
